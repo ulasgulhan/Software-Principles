@@ -41,3 +41,4 @@ Instead of using a single interface for all purposes, it is recommended to use m
 ## Dependency Inversion Principle (DIP)
 
 This principle aims to minimize the dependencies of classes that use a class when its properties change. It advocates that the superclass should not be dependent on the subclass. When there is a change in the superclass, the subclass should adapt to this change. However, when a change is made in the subclass, it should not affect the superclass. To prevent this, an abstraction concept is usually introduced between the higher-level and lower-level classes.
+
