@@ -28,7 +28,7 @@ ipek_account = {
 users = [burak_account, hakan_account, ipek_account]
 
 
-# Bu fonksyionda kod önceden yazdığımız kodların tekrarı var
+# In this function, we are using codes that was previously written.
 def send_money(sender_account: dict, reciver_account_no: str, amount: int) -> None: 
     for user in users: 
         if user['account_no'] == reciver_account_no:
