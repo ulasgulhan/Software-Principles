@@ -8,6 +8,10 @@ These principles are as follows:
 
 Different components should be positioned separately from each other. For example, the login process, comment model, and product structures should be positioned independently. This way, when developing our application or modifying an existing module, we can advance the development process without disrupting or touching other structures, ensuring that we maintain code integrity. By minimizing dependency structures, we can focus on the task at hand and elevate code quality to a high level.
 
+Here I have shown an example made without following my principle. [GitHub Pages](https://github.com/ulasgulhan/Software_Principles/blob/main/Principles_Examples/SoC/BadCode/bad_example.py).
+
+Here, too, I have shown how we get better results when we follow the principle. [GitHub Pages](https://github.com/ulasgulhan/Software_Principles/blob/main/Principles_Examples/SoC/GoodCode/good_example.py).
+
 ## Don't Repeat Yourself (DRY)
 
 The repetition of code not only makes it difficult to read but also complicates it. To prevent this, we should avoid code duplication. By applying this principle, we enhance the maintainability, readability, and testability of our code. This principle also nods to the single-responsibility principle.
