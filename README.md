@@ -16,6 +16,10 @@ Here, too, I have shown how we get better results when we follow the principle. 
 
 The repetition of code not only makes it difficult to read but also complicates it. To prevent this, we should avoid code duplication. By applying this principle, we enhance the maintainability, readability, and testability of our code. This principle also nods to the single-responsibility principle.
 
+Here I have shown an example made without following my principle. [GitHub Pages](https://github.com/ulasgulhan/Software_Principles/blob/main/Principles_Examples/DRY/BadCode/bad_example.py).
+
+Here, too, I have shown how we get better results when we follow the principle. [GitHub Pages](https://github.com/ulasgulhan/Software_Principles/blob/main/Principles_Examples/DRY/GoodCode/good_example.py).
+
 ## Keep It Simple Stupid (KISS)
 
 KISS, a principle emphasizing the pursuit of simplicity. It suggests that a system works well when it is simple, and simplicity is more effective than complexity. When writing code, it's essential to steer clear of complex structures and aim for 'smart,' meaning simplicity. I summarize this principle as follows: 'If you can explain what you're doing to a 5-year-old, you truly understand the task at hand.
