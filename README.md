@@ -24,6 +24,10 @@ Here, too, I have shown how we get better results when we follow the principle. 
 
 KISS, a principle emphasizing the pursuit of simplicity. It suggests that a system works well when it is simple, and simplicity is more effective than complexity. When writing code, it's essential to steer clear of complex structures and aim for 'smart,' meaning simplicity. I summarize this principle as follows: 'If you can explain what you're doing to a 5-year-old, you truly understand the task at hand.
 
+Here I have shown an example made without following my principle. [GitHub Pages](https://github.com/ulasgulhan/Software_Principles/blob/main/Principles_Examples/KISS/BadCode/bad_example.py).
+
+Here, too, I have shown how we get better results when we follow the principle. [GitHub Pages](https://github.com/ulasgulhan/Software_Principles/blob/main/Principles_Examples/KISS/GoodCode/good_example.py).
+
 # SOLID Principles
 
 SOLID is a set of principles initiated by Robert C. Martin and further developed by Michael Feathers. It aims to facilitate the development of software in a maintainable, sustainable, understandable, and flexible manner. This principle assists us in reducing complexity as the project grows. It complements and works in harmony with Object-Oriented Programming (OOP), enhancing each other's capabilities for cohesive functionality.
