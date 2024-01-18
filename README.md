@@ -38,6 +38,10 @@ The following five concepts make up our SOLID principles:
 
 It advocates that a component should have only one responsibility, aiming for a single reason to change when the component needs modification. If a function serves multiple purposes (has multiple responsibilities), it violates this principle. Failure to adhere to this principle means that when there are parts of the code that need modification, we would have to change multiple places in the functions we wrote. This not only extends the coding and maintenance processes but also increases costs. In short, a function should have one responsibility. Decreasing responsibility also means easier adaptation to change.
 
+Here I have shown an example made without following my principle. [GitHub Pages](https://github.com/ulasgulhan/Software_Principles/blob/main/Principles_Examples/SOLID_Examples/1.SRP/BadCode/bad_example.py).
+
+Here, too, I have shown how we get better results when we follow the principle. [GitHub Pages](https://github.com/ulasgulhan/Software_Principles/blob/main/Principles_Examples/SOLID_Examples/1.SRP/GoodCode/good_example.py).
+
 ## Open/Closed Principle (OCP)
 
 A class or function should be open for extension but closed for modification. It should preserve existing features while allowing for the addition of new ones. When adding something new to the project, we should extend our functions with minimal (simple) modifications, without altering their existing features. By adhering to this principle, as your project grows, you can easily keep track of and understand the functions without extensive changes to their core functionalities.
