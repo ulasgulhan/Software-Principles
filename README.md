@@ -46,6 +46,10 @@ Here, too, I have shown how we get better results when we follow the principle. 
 
 A class or function should be open for extension but closed for modification. It should preserve existing features while allowing for the addition of new ones. When adding something new to the project, we should extend our functions with minimal (simple) modifications, without altering their existing features. By adhering to this principle, as your project grows, you can easily keep track of and understand the functions without extensive changes to their core functionalities.
 
+Here I have shown an example made without following my principle. [GitHub Pages](https://github.com/ulasgulhan/Software_Principles/blob/main/Principles_Examples/SOLID_Examples/2.OCP/BadCode/bad_example.py).
+
+Here, too, I have shown how we get better results when we follow the principle. [GitHub Pages](https://github.com/ulasgulhan/Software_Principles/blob/main/Principles_Examples/SOLID_Examples/2.OCP/GoodCode/good_example.py).
+
 ## Liskov Substitution Principle (LSP)
 
 The Liskov Substitution Principle (LSP) is a key concept in object-oriented programming, emphasizing that derived classes should be substitutable for their base classes. In practical terms, if a program uses a base class, it should seamlessly work with any derived class without causing issues. This means that the behavior of the derived class should align with the expected behavior of the base class, ensuring that substituting one for the other does not compromise the correctness of the program. The principle emphasizes behavioral compatibility, avoiding the strengthening of preconditions and weakening of postconditions in derived classes compared to their base classes.
