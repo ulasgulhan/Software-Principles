@@ -54,6 +54,10 @@ Here, too, I have shown how we get better results when we follow the principle. 
 
 The Liskov Substitution Principle (LSP) is a key concept in object-oriented programming, emphasizing that derived classes should be substitutable for their base classes. In practical terms, if a program uses a base class, it should seamlessly work with any derived class without causing issues. This means that the behavior of the derived class should align with the expected behavior of the base class, ensuring that substituting one for the other does not compromise the correctness of the program. The principle emphasizes behavioral compatibility, avoiding the strengthening of preconditions and weakening of postconditions in derived classes compared to their base classes.
 
+Here I have shown an example made without following my principle. [GitHub Pages](https://github.com/ulasgulhan/Software_Principles/blob/main/Principles_Examples/SOLID_Examples/3.LSP/BadCode/bad_example.py)
+
+Here, too, I have shown how we get better results when we follow the principle. [GitHub Pages](https://github.com/ulasgulhan/Software_Principles/blob/main/Principles_Examples/SOLID_Examples/3.LSP/GoodCode/good_example.py).
+
 ## Interface Segregation Principle (ISP)
 
 Instead of using a single interface for all purposes, it is recommended to use multiple interfaces based on usage scenarios. This principle suggests using a separate interface for each responsibility, allowing users to choose a specific interface for a particular purpose. This principle operates on a logic similar to the Single Responsibility Principle (SRP), with the difference that the Interface Segregation Principle (ISP) focuses on interfaces, while SRP addresses classes and functions.
